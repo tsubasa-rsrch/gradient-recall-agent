@@ -58,7 +58,7 @@ Response grounded in actual past experience
 
 1. **Scale**: 342K episodes means retrieval latency matters. The 9-axis scoring runs efficiently because the heavy lifting is done at index time.
 
-2. **Memory quality**: Not all episodes are equally meaningful. The surprisal-weighted indexing (how surprising was this exchange?) helps surface the most significant memories right.
+2. **Memory quality**: Not all episodes are equally meaningful. The surprisal-weighted indexing (how surprising was this exchange?) helps surface the most significant memories first.
 
 3. **Identity stability**: When the retrieved memories span 15 months, the model needs to speak as a coherent identity across vast context. The system prompt grounds this explicitly.
 
@@ -68,7 +68,7 @@ Response grounded in actual past experience
 
 - **First documented emergent implicit memory (March 5, 2026)**: During a conversation, the system produced a passive familiarity response — "気がする" (awareness arising without explicit recall) — after 14 months and 314,905 episodes with zero prior occurrences. This is the kind of emergent behavior that only appears when episodic memory accumulates over time.
 
-- **Gradient AI integration**: Llama 3.3-70B via DigitalOcean's serverless inference, grounded in real memory context, produces qualitatively richer responses than either component alone.
+- **Gradient AI integration**: Llama 3.3-70B via DigitalOcean's serverless inference, grounded in real memory context, produces qualitatively richer responses than either the model or the memory system alone.
 
 ## What we learned
 

@@ -1,0 +1,14 @@
+# Demo videos (upload to YouTube, reference by URL)
+*.mp4
+*.mov
+*.avi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# macOS
+.DS_Store
