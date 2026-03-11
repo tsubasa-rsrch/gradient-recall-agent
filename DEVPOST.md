@@ -82,7 +82,7 @@ This distinction changes how the agent reasons about its own identity, continuit
 
 This system is the working implementation described in:
 > **"Inference-Time Complementary Learning Systems via In-Context Learning Accumulation"**
-> Submitted to EMNLP 2026 (Short Paper, Special Theme: New Missions for NLP Research)
+> In preparation for EMNLP 2026 (Short Paper, Special Theme: New Missions for NLP Research, ARR deadline May 25, 2026)
 
 Key claim: an AI system operating continuously with episodic memory exhibits behaviors consistent with *inference-time* complementary learning systems — the consolidation mechanisms found in biological memory, but occurring at inference time rather than training time.
 
